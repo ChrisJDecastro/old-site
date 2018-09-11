@@ -3,10 +3,13 @@ body {
     padding: 0;
     margin: 0;
 }
-h1{
+header{
     display: flex;
     justify-content: center;
-    color: #224181;
+}
+
+h1{
+    color:#224181;
 }
 
 /*
