@@ -6,6 +6,7 @@ body {
 header{
     display: flex;
     justify-content: center;
+    flex: 0 0 auto;
 }
 
 h1{
