@@ -8,7 +8,11 @@ header{
     justify-content: center;
     flex: 0 0 auto;
 }
-
+main{
+    display: flex;
+    justify-content: center;
+    flex: 0 0 auto;
+}
 h1{
     color:#224181;
 }
