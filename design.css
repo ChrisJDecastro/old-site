@@ -16,6 +16,7 @@ main{
 h1{
     color:#224181;
     font-size:300%;
+    font-family: Helvetica;
 }
 p{
     text-align: center;
@@ -25,9 +26,7 @@ div.socials{
     display:flex;
     justify-content: center;
 }
-div.individual{
-    
-}
+
 img.socials{
     display: block;
     margin-left: auto;
