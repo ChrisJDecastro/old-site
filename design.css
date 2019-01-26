@@ -22,9 +22,15 @@ p{
     text-align: center;
     color:#224181;
 }
+
+div.container{
+    display:flex;
+    justify-content: center;
+}
 div.socials{
     display:flex;
     justify-content: center;
+
 }
 
 img.socials{
@@ -34,6 +40,17 @@ img.socials{
     margin-top:10%;
     height: auto;
     width: 50%;
+}
+
+div.podcast{
+    display: flex;
+    justify-content: center;
+
+}
+iframe{
+    height: 50%;
+    width:40%;
+    margin-top: 5%;
 }
 
 @media (max-width: 450px){
