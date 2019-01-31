@@ -1,63 +1,80 @@
+@font-face {
+    font-family: "AdamCG";
+    src: url("fonts/adam.cg_pro-webfont.eot");
+    src:
+        url("fonts/adam.cg_pro-webfont.woff") format("woff"),
+        url("fonts/adam.cg_pro-webfont.svg#filename") format("svg");
+}
+
+
+
 body {
     background-color: #909FC0;
     padding: 0;
     margin: 0;
 }
-header{
+
+header {
     display: flex;
     justify-content: center;
     flex: 0 0 auto;
 }
-main{
+
+main {
     display: flex;
     justify-content: center;
     flex: 0 0 auto;
 }
-h1{
-    color:#224181;
-    font-size:300%;
-    font-family: Helvetica;
+
+h1 {
+    color: #224181;
+    font-size: 300%;
+    font-family: 'AdamCG';
 }
-p{
+
+p {
     text-align: center;
-    color:#224181;
+    color: #224181;
 }
 
-div.container{
-    display:flex;
+div.container {
+    display: flex;
     justify-content: center;
 }
-div.socials{
-    display:flex;
+
+div.socials {
+    display: flex;
     justify-content: center;
 
 }
 
-img.socials{
+img.socials {
     display: block;
     margin-left: auto;
-    margin-right:auto;
-    margin-top:10%;
+    margin-right: auto;
+    margin-top: 10%;
     height: auto;
     width: 50%;
 }
 
-div.podcast{
+div.podcast {
     display: flex;
     justify-content: center;
 
 }
-iframe{
+
+iframe {
     height: 50%;
-    width:40%;
+    width: 40%;
     margin-top: 5%;
 }
 
-@media (max-width: 450px){
-    h1{
+@media (max-width: 450px) {
+    h1 {
         font-size: 400%;
     }
-    p{
+
+    p {
         font-size: 100%;
     }
 }
