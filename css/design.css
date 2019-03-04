@@ -1,18 +1,31 @@
 @font-face {
     font-family: "AdamCG";
-    src: url("fonts/adam.cg_pro-webfont.eot");
+    src: url("../fonts/adam.cg_pro-webfont.eot");
     src:
-        url("fonts/adam.cg_pro-webfont.woff") format("woff"),
-        url("fonts/adam.cg_pro-webfont.svg#filename") format("svg");
+        url("../fonts/adam.cg_pro-webfont.woff") format("woff"),
+        url("../fonts/adam.cg_pro-webfont.svg#filename") format("svg");
 }
 
 
 
 body {
-    background-color: #909FC0;
+    /* background-color: #909FC0; */
+    background-color: #17182f;
     padding: 0;
     margin: 0;
 }
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+  }
+  
 
 header {
     display: flex;
@@ -27,7 +40,8 @@ main {
 }
 
 h1 {
-    color: #224181;
+    /* color: #224181; */
+    color: #ffffff;
     font-size: 300%;
     font-family: 'AdamCG';
 }
