@@ -15,7 +15,7 @@ body {
     margin: 0;
 }
 #loading {
-    background: url('../images/sp_loader.gif') no-repeat center center;
+    /* background: url('../images/sp_loader.gif') no-repeat center center; */
     position: absolute;
     top: 0;
     left: 0;
