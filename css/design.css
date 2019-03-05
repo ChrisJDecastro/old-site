@@ -15,7 +15,8 @@ body {
     margin: 0;
 }
 #loading {
-    /* background: url('../images/sp_loader.gif') no-repeat center center; */
+    background: url('../images/sp_loader.gif') no-repeat center center;
+    background-color: #676d89;
     position: absolute;
     top: 0;
     left: 0;
@@ -23,6 +24,8 @@ body {
     width: 100%;
     z-index: 9999999;
 }
+
+
 
 
 #particles-js {
